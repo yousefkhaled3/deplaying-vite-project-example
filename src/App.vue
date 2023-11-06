@@ -1,0 +1,130 @@
+<template>
+  <mynav />
+  <router-view />
+</template>
+
+<script>
+import mynav from "@/components/MyNav.vue";
+export default {
+  components: {
+    mynav,
+  },
+};
+</script>
+
+<style lang="scss">
+footer {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.file {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.about-picther {
+  width: 100%;
+  height: 100%;
+}
+.drag-area {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.img-about {
+  width: 80px;
+  height: 80px;
+}
+.about-preview {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.about-preview .image {
+  position: relative;
+  margin-bottom: 30px;
+}
+.delete {
+  z-index: 999;
+  color: red;
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  cursor: pointer;
+}
+.content-us {
+  margin-top: 30px;
+}
+.content-box {
+  box-shadow: -1px 2px 6px 5px #e3dfdf;
+  margin-bottom: 20px;
+}
+.content-text {
+  padding: 10px;
+}
+.img-content {
+  width: 100%;
+  height: 250px;
+}
+.select-elment {
+  position: relative;
+  width: 100px;
+}
+.select-elment::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 3px solid #676262;
+  border-right: 3px solid #676262;
+  transform: rotate(45deg);
+}
+.select-language {
+  -webkit-appearance: none;
+  width: 100%;
+  text-align: center;
+  background: none;
+  border: 1px solid #bbb6b6;
+}
+.select-language:focus {
+  outline: none;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  background-color: #eee;
+  width: 100%;
+  padding: 20px;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
+</style>
