@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center mt-5 mb-5">about</h1>
+  <h1 class="text-center mt-5 mb-5">about Us</h1>
   <MyContent />
   <div class="container mt-5">
     <div class="drag-area">
