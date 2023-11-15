@@ -7,9 +7,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
@@ -17,9 +17,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
@@ -27,9 +27,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
@@ -37,9 +37,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
@@ -47,9 +47,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
@@ -57,9 +57,9 @@
             <div class="content-box">
               <img class="img-content" src="../image/category-img-2.png" />
               <div class="content-text">
-                <h3>Large villa with swimming pool</h3>
-                <h6>Number of ads: 122 ads</h6>
-                <p>Saudi Arabia_Riyadh_Al Takhasusi Street</p>
+                <h3>{{ $t("textone") }}</h3>
+                <h6>{{ $t("texttwo") }}</h6>
+                <p>{{ $t("textthree") }}</p>
               </div>
             </div>
           </div>
